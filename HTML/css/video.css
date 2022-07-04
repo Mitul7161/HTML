@@ -1,0 +1,15 @@
+video{
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+.main{
+color: white;
+position: absolute;
+}
+
+

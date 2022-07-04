@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link rel="stylesheet" href="https://codepen.io/gymratpacks/pen/VKzBEp#0">
+        <link href='https://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+    <body>
+      <div class="row">
+    <div class="col-md-12">
+      <form>
+        <h1>Applicaton Form </h1>
+    
+          
+        
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="user_name" placeholder="Enter Your Name" required>
+        
+          <label for="email">Email:</label>
+          <input type="email" id="mail" name="user_email" placeholder="Enter Your Email" required>
+       
+          <label for="password">Password:</label>
+          <input type="password" id="password"  name="user_password" placeholder="Enter Your Password" required>
+
+          <label for="contact">Contact</label>
+          <input type="tel" id="number" name="user_number" placeholder="Enter Your Contact Number" required maxlength="10" pattern="[0-9]{10}">
+        
+          <label>Age:</label>
+          <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18" class="light" required>Under 18</label><br>
+          <input type="radio" id="over_18" value="over_18" name="user_age"><label for="over_18" class="light" required>Over 18</label><br>
+          
+       
+       
+          <br>
+         <label for="bio">Bio:</label>
+          <textarea id="bio" name="user_bio" placeholder="Enter Your Bio"></textarea>
+        
+       
+        
+         <label for="job">Job Role:</label>
+          <select id="job" name="user_job" required>
+            <optgroup label="Web">
+              <option value="frontend_developer">Front-End Developer</option>
+              <option value="php_developer">PHP Developer</option>
+              <option value="python_developer">Python Developer</option>
+              <option value="rails_developer">Rails Developer</option>
+              <option value="web_designer">Web Designer</option>
+              <option value="wordpress_developer">Wordpress Developer</option>
+          </select>
+          
+          <label>Interests:</label>
+          <input type="checkbox" id="development" value="interest_development" name="user_interest"><label class="light" for="development">Development</label><br>
+          <input type="checkbox" id="design" value="interest_design" name="user_interest"><label class="light" for="design">Design</label><br>
+          <input type="checkbox" id="business" value="interest_business" name="user_interest"><label class="light" for="business">Business</label><br>
+            <br>
+          <label for="resume" >Resume</label>
+          <input type="file" name="resume" id="resume" required>
+          
+          <label for="color">Color</label>
+          <input type="color" id="color" name="color"><br>
+          <br>
+          <label for="range">Range</label>
+          <input type="range" id="range">
+
+          <label for="date">Date</label>
+          <input type="date" name="date" id="date">
+
+          <label for="time">Time</label>
+          <input type="time" name="time" id="time">
+
+        <button type="submit">Submit</button>
+        
+       </form>
+        </div>
+      </div>
+      
+    </body>
+</html>
