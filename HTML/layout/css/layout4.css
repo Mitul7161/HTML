@@ -4,19 +4,13 @@ body{
 
 
 .logo{
+    display: flex;
     height: 70px;
     width: 100%;
     background-color: gray;
+    justify-content: space-around;
 }
 
-.logo :nth-child(1){
-    margin-left: 100px;
-    float: left;
-}
-.logo :nth-child(2){
-    margin-right: 100px;
-    float: right;
-}
 
 
 
