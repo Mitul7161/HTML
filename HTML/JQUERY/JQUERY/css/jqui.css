@@ -1,0 +1,52 @@
+#MyAccordion{font-size: 14px;width:50%;}
+#MyAccordion div{background:#ffffff;}
+
+
+.ui-widget-header,.ui-state-default, ui-button {
+    background:dodgerblue;
+    border: 1px solid dodgerblue;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+
+
+ #AgeValue
+ {
+     width:40px;
+     height:30px;
+     font-size:large;
+     font-weight:bold;
+     color:blue
+ }
+ #AgeRangeSlider,#PriceValue
+ {
+     width:300px;
+ }
+ #startvalue,#endvalue,#changevalue,#slidevalue
+ {
+     width:150px;
+     height:30px;
+     font-size:large;
+     font-weight:bold;
+     color:Navy;
+ }
+
+
+
+ #MyValueList input 
+ {
+     width: 100px;
+     color:Navy;
+     font-weight:bold;
+ }
+
+ #MyTabDiv{font-size: 14px;}
+ #MyTabDiv div,#MyTabDiv p{background:#ffffff;}
+ .ui-widget-header {
+    background:dodgerblue;
+    border: 1px solid dodgerblue;
+    color: #c63b9e;
+    font-weight: bold;
+ }
+
+ 
